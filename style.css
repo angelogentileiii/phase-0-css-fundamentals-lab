@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(85, 107, 47, 0.432);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure > figcaption{
+  font-size: 14px;
+  text-align: center;
+}
+
+p#featured-property{
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  float: left;
+  width: 25%;
+  background-color: rgba(85, 107, 47, 0.824);
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color:antiquewhite;
+}
